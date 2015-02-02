@@ -1,28 +1,13 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Working example of endless scroll implemented with the <tt>will_paginate</tt> gem for a simple CRUD app.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
+<tt>git clone https://github.com/KelseyDH/will_paginate_endless_scroll_example.git</tt>
+<tt>cd will_paginate_endless_scroll_example</tt>
+<tt>bundle install</tt>
+<tt>rake db:migrate</tt>
+<tt>rake db:seed</tt>
+<tt>rails s</tt>
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
